@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* 일요일 */
+th:first-child,
+td:first-child {
+  color: red;
+}
+
+/* 토요일 */
+th:last-child,
+td:last-child {
+  color: blue;
+}
